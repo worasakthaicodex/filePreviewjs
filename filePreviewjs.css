@@ -1,3 +1,11 @@
+/**
+ * ชื่อ: Thaicodex
+ * วันที่: 02-09-2023
+ * เวอร์ชัน: 1.0.0
+ * คำอธิบาย: filePreviewjs
+ */
+
+
   /* สร้างสไตล์สำหรับ input file */
     .custom-file-input {
       display: none; /* ซ่อน input file จริง */
