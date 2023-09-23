@@ -85,6 +85,8 @@ $_FILES['oldfiles1'];
 </pre>
 </code>
 
+![Screenshot-2023-09-23-091345.png](https://cdn.pic.in.th/file/picinth/Screenshot-2023-09-23-091345.png)
+	 
 
 
 By Thais, for Thais
