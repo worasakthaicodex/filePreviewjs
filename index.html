@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>filePreviewjs</title>
+  <link rel="stylesheet" href="filePreviewjs.css">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<span id="divflie1"></span>
+</body>
+</html>
+ 
+ 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+<script src='filePreviewjs.js'></script>
+<script >
+	  $('#divflie1').filePreviewjs({
+	  fileid:1,
+	  fileurl:"${path}/${advertise.uploadFile1}",
+	  });
+	
+</script>

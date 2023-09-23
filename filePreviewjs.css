@@ -1,0 +1,57 @@
+  /* สร้างสไตล์สำหรับ input file */
+    .custom-file-input {
+      display: none; /* ซ่อน input file จริง */
+    }
+
+    .custom-file-label {
+      display: inline-block;
+      width: 125px;
+      height: 125px;
+      text-align: center;
+      line-height: 50px;
+      border: 1px dashed #ccc; /* เปลี่ยนเป็นเส้นประและสีเทา */
+      cursor: pointer;
+      position: relative;
+    }
+
+    .custom-file-label img {
+      max-width: 100%;
+      max-height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+       transition: transform 0.2s; /* เพิ่มการเปลี่ยนแปลงเมื่อ hover */
+    }
+
+    .custom-file-label::before {
+      content: "+";
+      font-size: 30px;
+      color: black;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+  transform: translate(-50%, -50%);
+
+    }
+
+    .delete-button {
+    
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      border: none;
+      cursor: pointer;
+       width: 30px; /* กำหนดความกว้างและความสูงเท่ากัน */
+  height: 30px;
+      border-radius: 50%;
+      display: none;
+      line-height: 30px; 
+    }
+
+    .custom-file-label:hover .delete-button {
+      display: block;
+    }
