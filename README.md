@@ -22,7 +22,7 @@ How to Use FilePreview.js:
 
 <pre>
 <code>
-<script src="file-preview.js"></script>
+<script src="filePreviewjs.js"></script>
 
 &lt;link rel="stylesheet" href="filePreviewjs.css"&gt;
 
@@ -46,7 +46,7 @@ How to Use FilePreview.js:
 <script >
 	  $('#divflie1').filePreviewjs({
 	  fileid:1,
-	  fileurl:"${path}/${advertise.uploadFile1}", \n
+	  fileurl:"https://cdn.pic.in.th/file/picinth/Screenshot-2023-09-23-091345.png",
 	  }); 
 	
 </script>
