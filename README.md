@@ -11,6 +11,10 @@ Key Features:
 
 4.Easy Integration: FilePreview.js can be easily integrated into your existing web forms and file upload components. It works seamlessly with HTML and JavaScript.
 
+
+
+
+
 How to Use FilePreview.js:
 
 
@@ -20,7 +24,7 @@ How to Use FilePreview.js:
 <code>
 <script src="file-preview.js"></script>
 
-<link rel="stylesheet" href="filePreviewjs.css">
+&lt;link rel="stylesheet" href="filePreviewjs.css"&gt;
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script> 
 </pre>
@@ -29,11 +33,13 @@ How to Use FilePreview.js:
 
 2.Create a file input element in your HTML:
 <pre>
-<code>
-
-<span id="divflie1"></span>
+<code>	
+&lt;span id="divflie1"&gt;&lt;/span&gt;
 </pre>
 </code>
+
+
+
 3.Initialize FilePreview.js forid:
 <pre>
 <code>
@@ -48,6 +54,9 @@ How to Use FilePreview.js:
 </code>
 "fileid" should be assigned a numeric value starting from 1 and increasing incrementally.
 "fileurl" should be set to the URL of the file previously uploaded, if available.
+
+
+
 
 
 4.When receiving the input file through a POST request, you should expect:
@@ -65,14 +74,18 @@ For example:
   });
 </script>
 
+
 #PHP
-<?php
 $_FILES['file1'];
 $_FILES['oldfiles1'];
-?>
 
 #๋๋JAVA
 @RequestParam (value = "file1", required=false)  CommonsMultipartFile file1,
 @RequestParam (value = "oldfiles1", required=false)  CommonsMultipartFile oldfiles1,
 </pre>
 </code>
+
+
+
+By Thais, for Thais
+
